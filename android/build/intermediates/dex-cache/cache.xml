@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\TXT.EXE\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.40.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2d74afead061bfd6dda3c18734ebcf3fe0d84a7c">
+        <dex dex="C:\TXT.EXE\android\app\build\intermediates\pre-dexed\debug\classes-a05d8b9b6da703a1e46678f7132aa885882df1a7.jar" />
+    </item>
+    <item
+        jar="C:\TXT.EXE\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="C:\TXT.EXE\android\app\build\intermediates\pre-dexed\debug\classes-146bd041ccd07a4877f920d1c23d3129090c101d.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1-0cb5a5310972fdc649f78385ce1195f9830c9086.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.40.0\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-aebbad7d13e5fef9bcd1d05abda5e6f2835c1054.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1-a2e742f6823b43ebdf53629c80a8c499cc3d3dda.jar" />
+    </item>
+    <item
+        jar="C:\TXT.EXE\android\app\build\intermediates\exploded-aar\NativeBaseDemo\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0d02db4e37812e9d90ef92c86eaf09349f667590">
+        <dex dex="C:\TXT.EXE\android\app\build\intermediates\pre-dexed\debug\classes-4869af64d132634302314c2ee45dc31a15e7539b.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\classes-b910612a6e8ceb09c029ba45d864e874b345c675.jar" />
+    </item>
+    <item
+        jar="C:\TXT.EXE\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\TXT.EXE\android\app\build\intermediates\pre-dexed\debug\classes-784deafd656b4390f2dfefd7ce3a3f83aa77cd15.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0-dbe358d7f3c9e00d98e8a5c43302529b941c61fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\classes-cd8e88cd10d07ee9cbc11baa20853becfc1aa7fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\library-2.4.0-c1742a852c0ebe2f454c283633e17d02db8fb055.jar" />
+    </item>
+    <item
+        jar="C:\TXT.EXE\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\TXT.EXE\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1-3b8cebc66eeb30d4d21244bffb43e1d45a1a4aa6.jar" />
+    </item>
+    <item
+        jar="C:\TXT.EXE\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="C:\TXT.EXE\android\app\build\intermediates\pre-dexed\debug\classes-3c6cad7c763d33d64490560df82799dc53b83a3f.jar" />
+    </item>
+    <item
+        jar="C:\TXT.EXE\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="C:\TXT.EXE\android\app\build\intermediates\pre-dexed\debug\classes-338f886b53915e77488a6495bb0274ceca74a385.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\classes-63189895b0152e07870ae44e90a92657bdbc50b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1-430ce52e3065ea9158b94db5cb027ced742f1961.jar" />
+    </item>
+    <item
+        jar="C:\TXT.EXE\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="C:\TXT.EXE\android\app\build\intermediates\pre-dexed\debug\classes-f6997817595026e0daaa0ed98a068f078fddd696.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\classes-3b7bec2a5e0b0b0c70c9ddc2baba028b9b9a0d77.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0-5ef81c46a1c60cdaf8ad6c4381855f85f39ec24a.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1-22bc13bc48981851a91f9a554dc0b9fe6228832b.jar" />
+    </item>
+    <item
+        jar="C:\TXT.EXE\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="C:\TXT.EXE\android\app\build\intermediates\pre-dexed\debug\classes-a6b61de6609871d5e1b24e26ea83ce1b840a0173.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\classes-b40783c94e3bfb015a8a922f127e9ebaa0cc56f3.jar" />
+    </item>
+    <item
+        jar="C:\TXT.EXE\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="C:\TXT.EXE\android\app\build\intermediates\pre-dexed\debug\classes-d48b2cee05bf1af62ba9ead3af3a972344e78e3d.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\classes-130084501347ec1385c5ff1b67126feab44d7afd.jar" />
+    </item>
+    <item
+        jar="C:\TXT.EXE\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="C:\TXT.EXE\android\app\build\intermediates\pre-dexed\debug\classes-f5f30a561d477c024c4f08663dd6f3b52f329ea3.jar" />
+    </item>
+    <item
+        jar="C:\TXT.EXE\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\TXT.EXE\android\app\build\intermediates\pre-dexed\debug\classes-8faed03ef1d7b6f4e08f70aa8375b750d5a63bc2.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\classes-64287b6614e4d1379ac43a50880b65af4490598a.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\classes-d7fedb06643916f73bf2bd6a28676465ae2b5227.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\javax.inject-1-238d1bd132c346a2399a460f262710a8b6edd166.jar" />
+    </item>
+    <item
+        jar="C:\TXT.EXE\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="C:\TXT.EXE\android\app\build\intermediates\pre-dexed\debug\classes-a7122f9e62c9ab0068563cc7c6c90d733be2192c.jar" />
+    </item>
+    <item
+        jar="C:\TXT.EXE\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.40.0\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="C:\TXT.EXE\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-def01cd5330ca3452aba2f6ab1b121b736d31a71.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\classes-6f905d7fb790ff144619ef2445cb9cc0ead6625b.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1-f29f37374fc9f5e3c1ea67b0aa783ce028eafd3a.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.40.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2d74afead061bfd6dda3c18734ebcf3fe0d84a7c">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\classes-8ef37583a10b7d2da133e01f8d103c33f1737fc2.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.11.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\classes-c2734324b844523ad0df77d4e0a1060c9c3562dd.jar" />
+    </item>
+    <item
+        jar="C:\Users\DylanF_2\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\DylanF_2\Documents\wamp\www\MobileApp\SampleProjects\NativeBaseDemo\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0-11337ef811601715491630e04d83240c65ab0950.jar" />
+    </item>
+
+</items>
