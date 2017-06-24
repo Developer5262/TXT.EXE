@@ -1,11 +1,11 @@
-import colors from '../../config/colors'
+import { colors, font } from '../config';
 
 const styles = {
     button: {
         text: {
             color: colors.title,
             fontSize: 30,
-            fontFamily: colors.font
+            fontFamily: font.title
         },
         background: {
             borderRadius: 31,
@@ -27,7 +27,7 @@ const styles = {
     title: {
         color: colors.title,
         fontSize: 72,
-        fontFamily: colors.font,
+        fontFamily: font.title,
         paddingVertical: 15
     }
 }
