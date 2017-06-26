@@ -7,5 +7,5 @@ export const colors = {
 };
 
 export const font = {
-    title: 'Courier'
+    title: 'josefinsans'
 };
