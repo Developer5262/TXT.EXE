@@ -7,6 +7,5 @@ export const colors = {
 };
 
 export const font = {
-    title: "Cambria Math",
-    story: ""
+    title: 'Courier'
 };
