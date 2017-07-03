@@ -7,12 +7,12 @@ import {
 
 import React, {Component} from 'react'
  
-import Home from './app/Home/Home.js'
+import Storyboard from './app/Storyboard/Storyboard'
 
 class NativeBaseDemo extends Component {
     render() {
         return (
-            <Home />
+            <Storyboard />
         )
     }
 }
