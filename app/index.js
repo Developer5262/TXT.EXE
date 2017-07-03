@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import Home from './app/Home/Home'
+import Home from './Storyboard/Storyboard'
 
 class App extends Component {
     render() {
         return (
-            <Home />
+            <Storyboard />
         );
     }
 }

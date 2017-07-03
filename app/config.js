@@ -1,11 +1,17 @@
-const dark = false;
+const dark = true;
 
 export const colors = {
-    home_container: dark ? '#303030' : '#FCFDFF',
+    home: dark ? '#303030' : '#FCFDFF',
     title: dark ? '#FCFDFF' : '#111',
-    text: dark ? '#111' : '#FCFDFF'
+    text: dark ? '#FCFDFF' : '#111',
+    button: dark ? '#303030' : '#FCFDFF',
+    overlay: dark ? '#303030' : '#FCFDFF'
 };
 
 export const font = {
-    title: 'josefinsans'
+    title: 'spectral',
+    story: 'josefinsans',
+    default: 24
 };
+
+export const images = {};

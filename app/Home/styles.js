@@ -18,7 +18,7 @@ const styles = {
         }
     },
     container: {
-        backgroundColor: colors.home_container,
+        backgroundColor: colors.home,
         flex: 1,
         flexDirection: 'column',
         alignItems: 'center',
