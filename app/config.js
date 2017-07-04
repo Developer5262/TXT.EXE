@@ -1,4 +1,4 @@
-const dark = true;
+const dark = false;
 
 export const colors = {
     home: dark ? '#303030' : '#FCFDFF',

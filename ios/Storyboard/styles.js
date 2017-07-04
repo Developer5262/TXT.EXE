@@ -4,29 +4,29 @@ const styles = {
     button: {
         text: {
             color: colors.text,
-            fontFamily: font.story,
-
-            fontSize: 20
+            fontFamily: font.story
         },
         background: {
+            paddingVertical: 10,
+            width: 350,
             borderRadius: 3,
-            borderWidth: 3,
+            borderWidth: 1,
             borderColor: colors.text,
             alignItems: 'center',
-            justifyContent: 'center'
+            justifyContent: 'center',
+            marginVertical: 3
+        },
+        container: {
+
         }
     },
     overlay: {
         backgroundColor: colors.overlay,
         flex: 1,
-        flexDirection: 'column'
+        alignItems: 'center'
     },
     text: {
         
-    },
-    button_container: {
-        flex: 1,
-        flexDirection: 'column'
     }
 }
 

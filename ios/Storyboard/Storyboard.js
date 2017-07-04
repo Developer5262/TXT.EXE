@@ -12,9 +12,9 @@ export default class Storyboard extends Component {
     render() {
         return (
             <View style = { styles.overlay }>
-                <View style = { styles.button_container }>
+                <View style = { styles.button.container }>
                     <Button />
-                    <Button /> 
+                    <Button />
                 </View>
             </View>
         );
