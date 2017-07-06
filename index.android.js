@@ -4,9 +4,7 @@ import {
     Text,
     View
 } from 'react-native';
-
 import React, {Component} from 'react'
- 
 import Storyboard from './app/Storyboard/Storyboard'
 
 class NativeBaseDemo extends Component {
@@ -16,5 +14,4 @@ class NativeBaseDemo extends Component {
         )
     }
 }
-
 AppRegistry.registerComponent('NativeBaseDemo', () => NativeBaseDemo);

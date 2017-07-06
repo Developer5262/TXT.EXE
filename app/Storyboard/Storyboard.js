@@ -3,18 +3,21 @@ import {
     Text, 
     View 
 } from 'react-native';
-
-import styles from './styles'
-
+import styles from '../config/styles';
 import Button from './Button'
+import ChoiceContainer from './ChoiceContainer'
+import NarrativeContainer from './NarrativeContainer';
 
 export default class Storyboard extends Component {
     render() {
         return (
-            <View style = { styles.overlay }>
-                <View style = { styles.button.container }>
-                    <Button />
-                    <Button />
+            <View>
+                <View style = { styles.overlay }>
+                    <NarrativeContainer />
+                    <ChoiceContainer />
+                </View>
+                <View style = { styles.container.screen }>
+                    
                 </View>
             </View>
         );
