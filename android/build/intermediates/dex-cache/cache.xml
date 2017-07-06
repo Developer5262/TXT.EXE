@@ -2,13 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-8739ae0be8c6ed947b2d06d6d4d15d346fea7680.jar" />
-    </item>
-    <item
         jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -23,46 +16,11 @@
         <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1-0031d91a8593c92d356c753c1c3259b8b8492a86.jar" />
     </item>
     <item
-        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-4839d7a3f408330423aa100ef724b9b01b8f72dc.jar" />
-    </item>
-    <item
-        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-dd1b9bc1a06743c4600e6e0e188dc7d1ac4ab144.jar" />
-    </item>
-    <item
-        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/NativeBaseDemo/react-native-vector-icons/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="348676e55129e3e7dedb58bd1dba3f4a2405e5b3">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-f94c2045527d7f78c5a38807f1a5c9532b104ca3.jar" />
-    </item>
-    <item
-        jar="/home/justin/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-ad02c3402d291b6d73bc2d1ee13c9abbcb9ee50d.jar" />
-    </item>
-    <item
         jar="/home/justin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
         <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1-3838206a3e5f2088e8446d286722b1c2d80b62b2.jar" />
-    </item>
-    <item
-        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-9ebf907cf678798b3924ed07386ea9d4a7238d6a.jar" />
     </item>
     <item
         jar="/home/justin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
@@ -72,32 +30,11 @@
         <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1-11e401db55782c0335d86fce4980db87d209e57f.jar" />
     </item>
     <item
-        jar="/home/justin/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jar="/home/justin/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1-ef859260a38c54a9dbed862042f251e7e9e12338.jar" />
-    </item>
-    <item
-        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-0f8ad6302c3461a9419be2e72e371af0cafc380d.jar" />
-    </item>
-    <item
-        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-39dbdaefbe0122579ca7ab66d02090d1f3682266.jar" />
-    </item>
-    <item
-        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-2a5909845ae8c3d5faa2773043acc38a0cd0c5c8.jar" />
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-ad02c3402d291b6d73bc2d1ee13c9abbcb9ee50d.jar" />
     </item>
     <item
         jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
@@ -107,39 +44,11 @@
         <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-a6d2acbb5a68f3cb8fe740c4e8287dca614edc0e.jar" />
     </item>
     <item
-        jar="/home/justin/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/javax.inject-1-7d8437f63d382ba3da158d553d1f3c87b538713b.jar" />
-    </item>
-    <item
-        jar="/home/justin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1-569a79b70984254b7e14d05aa3b9a16ec4033613.jar" />
-    </item>
-    <item
-        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-125d06bcaeafbce51b916e4076c028278e492e5c.jar" />
-    </item>
-    <item
-        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="2d74afead061bfd6dda3c18734ebcf3fe0d84a7c">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-cfe3e023f5254bef212f39fbee5d758f1e73e963.jar" />
-    </item>
-    <item
-        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
-        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-aea8cb8d7483fa9e747890822d3015e99c27674a.jar" />
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-8739ae0be8c6ed947b2d06d6d4d15d346fea7680.jar" />
     </item>
     <item
         jar="/home/justin/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
@@ -149,6 +58,13 @@
         <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-495098b28b25825464f3665223cf6b5faf57d192.jar" />
     </item>
     <item
+        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2d74afead061bfd6dda3c18734ebcf3fe0d84a7c">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-cfe3e023f5254bef212f39fbee5d758f1e73e963.jar" />
+    </item>
+    <item
         jar="/home/justin/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -156,11 +72,95 @@
         <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-085be41e4ef5404b8f53988d8c6cc6861a5b32a7.jar" />
     </item>
     <item
+        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-2a5909845ae8c3d5faa2773043acc38a0cd0c5c8.jar" />
+    </item>
+    <item
+        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-125d06bcaeafbce51b916e4076c028278e492e5c.jar" />
+    </item>
+    <item
+        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-0f8ad6302c3461a9419be2e72e371af0cafc380d.jar" />
+    </item>
+    <item
+        jar="/home/justin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1-569a79b70984254b7e14d05aa3b9a16ec4033613.jar" />
+    </item>
+    <item
+        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/NativeBaseDemo/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="12d512e2ae480c6759729b547aa4cf645ad361e2">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-f94c2045527d7f78c5a38807f1a5c9532b104ca3.jar" />
+    </item>
+    <item
+        jar="/home/justin/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/javax.inject-1-7d8437f63d382ba3da158d553d1f3c87b538713b.jar" />
+    </item>
+    <item
         jar="/home/justin/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
         <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0-5ec50e6775277092a43c66a4008819268447e0d3.jar" />
+    </item>
+    <item
+        jar="/home/justin/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1-ef859260a38c54a9dbed862042f251e7e9e12338.jar" />
+    </item>
+    <item
+        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-39dbdaefbe0122579ca7ab66d02090d1f3682266.jar" />
+    </item>
+    <item
+        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-9ebf907cf678798b3924ed07386ea9d4a7238d6a.jar" />
+    </item>
+    <item
+        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-dd1b9bc1a06743c4600e6e0e188dc7d1ac4ab144.jar" />
+    </item>
+    <item
+        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-4839d7a3f408330423aa100ef724b9b01b8f72dc.jar" />
+    </item>
+    <item
+        jar="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/home/justin/Documents/SoftwareDev/TXTEXE/android/app/build/intermediates/pre-dexed/debug/classes-aea8cb8d7483fa9e747890822d3015e99c27674a.jar" />
     </item>
 
 </items>

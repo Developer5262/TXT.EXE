@@ -3,7 +3,7 @@ import {
     View
 } from 'react-native';
 
-import Button from './Button';
+import Button from '../Button';
 import styles from '../config/styles';
 
 export default class ChoiceContainer extends Component {

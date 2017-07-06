@@ -1,4 +1,4 @@
-import { colors, font } from '../config';
+import { colors, font } from '../config'
 
 const styles = {
     button: {
