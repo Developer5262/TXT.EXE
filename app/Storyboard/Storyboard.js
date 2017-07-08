@@ -8,7 +8,6 @@ import {
 import styles from './config/styles'
 import Button from './Button'
 import images from './images/images';
-import ChoiceContainer from './containers/ChoiceContainer'
 import NarrativeContainer from './containers/NarrativeContainer';
 
 export default class Storyboard extends Component {
@@ -20,7 +19,6 @@ export default class Storyboard extends Component {
                 <View style = { styles.overlay }>
                     <ScrollView>
                         <NarrativeContainer />
-                        <ChoiceContainer />
                     </ScrollView>
                 </View>
             </Image>

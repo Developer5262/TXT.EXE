@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
 import {
+    Text,
     View
 } from 'react-native';
-
 import Button from '../Button';
-import styles from '../config/styles';
+import PropTypes from 'prop-types';
+import styles from '../config/styles'
 
 export default class ChoiceContainer extends Component {
     render() {
         return (
             <View style = { styles.container.button }>
-                <Button title = 'Go Left' />
-                <Button title = 'Go Right' />
+                <Button title = { this.props.decisions[0] } />
+                <Button title = { this.props.decisions[1] } />
             </View>
         );
     }
+}
+
+ChoiceContainer.PropTypes = {
+    decisions: PropTypes.array.isRequired
 }

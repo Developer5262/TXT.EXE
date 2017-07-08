@@ -22,5 +22,5 @@ export default class Button extends Component {
 }
 
 Button.PropTypes = {
-    title: PropTypes.string
+    title: PropTypes.string.isRequired
 }
