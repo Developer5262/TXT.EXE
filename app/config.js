@@ -5,7 +5,8 @@ export const colors = {
     title: dark ? '#FCFDFF' : '#111',
     text: dark ? '#FCFDFF' : '#111',
     button: dark ? '#303030' : '#FCFDFF',
-    overlay: dark ? '#303030' : '#FCFDFF'
+    overlay: dark ? '#303030' : '#FCFDFF',
+    opacity: dark ? 0.8 : 0.8
 };
 
 export const font = {
@@ -13,5 +14,3 @@ export const font = {
     story: 'josefinsans',
     default: 24
 };
-
-export const images = {};

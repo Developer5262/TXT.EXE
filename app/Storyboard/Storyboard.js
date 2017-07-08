@@ -1,20 +1,29 @@
 import React, {Component} from 'react';
 import { 
     Text, 
-    View 
+    View,
+    Image,
+    ScrollView 
 } from 'react-native';
 import styles from './config/styles'
 import Button from './Button'
+import images from './images/images';
 import ChoiceContainer from './containers/ChoiceContainer'
 import NarrativeContainer from './containers/NarrativeContainer';
 
 export default class Storyboard extends Component {
     render() {
-        return (
-            <View style = { styles.overlay }>
-                <NarrativeContainer />
-                <ChoiceContainer />
-            </View>
+        return (   
+            <Image
+                source = {require('./images/airportterminal.jpg')} 
+                style = { styles.container.screen }>
+                <View style = { styles.overlay }>
+                    <ScrollView>
+                        <NarrativeContainer />
+                        <ChoiceContainer />
+                    </ScrollView>
+                </View>
+            </Image>
         );
     }
 }
