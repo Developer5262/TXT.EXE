@@ -6,7 +6,6 @@ import {
     ScrollView 
 } from 'react-native';
 import styles from './config/styles'
-import Button from './Button'
 import images from './images/images';
 import NarrativeContainer from './containers/NarrativeContainer';
 

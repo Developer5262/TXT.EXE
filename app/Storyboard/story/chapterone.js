@@ -6,7 +6,8 @@ const intro = {
     decisions: [
         "Take the L",
         "Take the W"
-    ]
+    ],
+    id: 10
 }
 
 
@@ -22,11 +23,13 @@ const choice1_runtogetbags = {
 const choice1_runtogetbags_choice2_apologize = {
     story: [
         "'Sorry!' I yelled from across the walkway. All that got me was another glare. Guess I deserved that one."
-    ]
+    ],
+    id: 11
 }
 
 const choice1_runtogetbags_choice2_dontapologize = {
-    story: ["Right. I didn't have time for that."]
+    story: ["Right. I didn't have time for that."],
+    id: 12
 }
 
 const choice1_runtogetbags_post_choice2 = {
@@ -41,9 +44,11 @@ const choice1_runtogetbags_post_choice2 = {
     decisions: [
         "Take the L",
         "Take the W"
-    ]
+    ],
+    id: 13
 }
 
 export {
-    choice1_runtogetbags_post_choice2
+    choice1_runtogetbags_post_choice2,
+    intro
 }
