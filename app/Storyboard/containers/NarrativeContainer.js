@@ -46,7 +46,7 @@ export default class NarrativeContainer extends Component {
         })
     }
 
-    handleLeftButtonPress = () => {
+    handleLeftButtonPress = (outcome) => {
         this.setState({ 
             story: this.state.story.concat([choice1_runtogetbags_post_choice2])
         })

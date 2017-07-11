@@ -15,6 +15,14 @@ const styles = {
             justifyContent: 'center',
             marginVertical: 3,
             borderColor: colors.text
+        },
+        disabled: {
+            background: {
+                backgroundColor: '#ddd',
+            },
+            text: {
+                color: '#fff'
+            }
         }
     },
     container: {
