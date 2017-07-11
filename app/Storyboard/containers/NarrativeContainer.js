@@ -12,6 +12,14 @@ import styles from '../config/styles';
 import Partial from '../containers/Partial';
 
 export default class NarrativeContainer extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            story: [intro],
+            factors: {}
+        }
+    }
+
     getItems = ( elements ) => {
         return elements.story.map((data) => {
             return (
@@ -22,35 +30,36 @@ export default class NarrativeContainer extends Component {
         })
     }
 
-    state = {
-        view: (
-            <Partial 
-                narrative = { choice1_runtogetbags_post_choice2 } 
-                getItems = { this.getItems }
-                onLeftButtonPress = { this.handleLeftPress }
-                onRightButtonPress = { this.handleRightPress }
-                leftButtonTitle = "Take a Walk"
-                rightButtonTitle = "Run" />
-        ),
-        activeVariables: {}
-    }
-
-    handleLeftPress = () => {
-        newview = <Partial narrative = { intro } getItems = { this.getItems }/>
-
-        this.setState({
-            view: Object.assign({}, view, newview)
+    mapItems = ( items ) => {
+        return items.map((data) => {
+            return (
+                <View>
+                    <Partial
+                        narrative = { data }
+                        getItems = { this.getItems }
+                        onLeftButtonPress = { this.handleLeftButtonPress }
+                        onRightButtonPress = { this.handleRightButtonPress }
+                        leftButtonTitle = { data.decisions[0] }
+                        rightButtonTitle = { data.decisions[1] } />
+                </View>
+            )
         })
     }
 
-    handleRightPress = (outcomes) => {
+    handleLeftButtonPress = () => {
+        this.setState({ 
+            story: this.state.story.concat([choice1_runtogetbags_post_choice2])
+        })
+    }
+
+    handleRightButtonPress = () => {
         
     }
 
     render() {
         return (
             <View>
-                {this.state.view}
+                { this.mapItems( this.state.story ) }
             </View>
         );
     }

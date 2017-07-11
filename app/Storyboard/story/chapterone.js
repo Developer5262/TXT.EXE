@@ -4,8 +4,8 @@ const intro = {
         "Now wasn't the time to chasise myself. I wasn already late as it was. I didn't know how long they would wait for me."
     ],
     decisions: [
-        "Take the L",
-        "Take the W"
+        "Take the Left",
+        "Take the W Train"
     ],
     id: 10
 }
@@ -42,8 +42,8 @@ const choice1_runtogetbags_post_choice2 = {
         "I couldn’t have travelled all the way across the world (and wasted all that money) just to turn back around again."
     ],
     decisions: [
-        "Take the L",
-        "Take the W"
+        "Take the L Train",
+        "Take the W Train"
     ],
     id: 13
 }
