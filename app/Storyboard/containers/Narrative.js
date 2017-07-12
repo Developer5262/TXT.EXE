@@ -41,13 +41,13 @@ export default class NarrativeContainer extends Component {
                         narrative = { data }
                         getItems = { this.getItems }
                         onLeftButtonPress = { this.handleLeftButtonPress }
-                        onRightButtonPress = { this.handleRightButtonPress } />
+                        onRightButtonPress = { this.handleRightButtonPress }/>
                 </View>
             )
         })
     }
 
-    handleLeftButtonPress = (outcome) => {
+    handleLeftButtonPress(outcome) {
         this.setState({ 
             story: this.state.story.concat([outcome])
         })

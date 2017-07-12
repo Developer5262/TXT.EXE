@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {
     Text,
-    View
+    View,
+    TouchableOpacity
 } from 'react-native';
 
 import styles from '../config/styles';
@@ -15,18 +16,36 @@ import {
 } from '../story/chapterone'
 
 export default class Partial extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            disabled: false
+        }
+    }
+    
+    disableButton = () => {
+        this.setState({
+            disabled: true
+        })
+    }
+
     render() {
-        return (
-            <View style = { styles.container.text }>
-                { this.props.getItems( this.props.narrative ) }
-                <View style = { styles.container.button }>
+        var item = !this.state.disabled ? (
+            <View style = { styles.container.button }>
+                <TouchableOpacity onPress = {() => this.disableButton}>
                     <Button
                         buttonTitle = { this.props.narrative.decisions[0] }
                         onButtonPress = {() => this.props.onLeftButtonPress(choice1_runtogetbags_post_choice2) }/>
                     <Button
                         buttonTitle = { this.props.narrative.decisions[1] }
                         onButtonPress = { this.props.onRightButtonPress } />
-                </View>
+                </TouchableOpacity>
+            </View>
+        ) : <View />
+        return (
+            <View style = { styles.container.text }>
+                { this.props.getItems( this.props.narrative ) }
+                <View>{ item }</View>
             </View>
         );
     }
@@ -37,4 +56,5 @@ Partial.PropTypes = {
     onLeftButtonPress: PropTypes.func.isRequired,
     getItems: PropTypes.func.isRequired,
     onRightButtonPress: PropTypes.func.isRequired,
+    disabled: PropTypes.bool.isRequired
 }
