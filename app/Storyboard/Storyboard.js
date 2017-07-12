@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import styles from './config/styles'
 import images from './images/images';
-import NarrativeContainer from './containers/NarrativeContainer';
+import Narrative from './containers/Narrative';
 
 export default class Storyboard extends Component {
     render() {

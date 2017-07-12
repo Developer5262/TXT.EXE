@@ -6,8 +6,12 @@ import {
     TouchableWithoutFeedback,
     TouchableOpacity
 } from 'react-native';
+
 import styles from '../config/styles';
+import Button from '../components/Button';
+import DisabledButton from '../components/DisabledButton';
 import PropTypes from 'prop-types';
+
 import { 
     choice1_runtogetbags_post_choice2,
     intro
@@ -30,33 +34,21 @@ export default class Partial extends Component {
         if (this.state.clicked) {
             item = (
                 <View style = { styles.container.button }>
-                    <View style = { styles.button.disabled.background }>
-                        <TouchableWithoutFeedback>
-                            <Text style = { styles.button.disabled.text }>{ this.props.leftButtonTitle }</Text>
-                        </TouchableWithoutFeedback>
-                    </View>
-
-                    <View style = { styles.button.disabled.background }>
-                        <TouchableWithoutFeedback>
-                            <Text style = { styles.button.disabled.text }>{ this.props.rightButtonTitle }</Text>
-                        </TouchableWithoutFeedback>
-                    </View>
+                    <DisabledButton buttonTitle = { this.props.leftButtonTitle }/>
+                    <DisabledButton buttonTitle = { this.props.rightButtonTitle }/>
                 </View>
             );
         } else {
             item = (
                 <View style = { styles.container.button }>
-                    <View style = { styles.button.background }>
-                        <TouchableHighlight onPress = {() => this.props.onLeftButtonPress(choice1_runtogetbags_post_choice2)}>
-                            <Text style = { styles.button.text }>{ this.props.leftButtonTitle }</Text>
-                        </TouchableHighlight>
-                    </View>
-
-                    <View style = { styles.button.background }>
-                        <TouchableHighlight onPress = { this.props.onRightButtonPress }>
-                            <Text style = { styles.button.text }>{ this.props.rightButtonTitle }</Text>
-                        </TouchableHighlight>
-                    </View>
+                    <Button
+                        leftButtonTitle = { this.props.leftButtonTitle }
+                        onButtonPress = { this.props.onLeftButtonPress }
+                        narrative = { this.props.narrative }/>
+                    <Button
+                        leftButtonTitle = { this.props.rightButtonTitle }
+                        onButtonPress = { this.props.onRightButtonPress }
+                        narrative = { this.props.narrative }/>
                 </View>
             );
         }
