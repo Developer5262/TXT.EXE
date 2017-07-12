@@ -20,6 +20,9 @@ export default class NarrativeContainer extends Component {
         }
     }
 
+    /*
+        Params - takes a plot element
+    */
     getItems = ( elements ) => {
         return elements.story.map((data) => {
             return (
@@ -38,17 +41,15 @@ export default class NarrativeContainer extends Component {
                         narrative = { data }
                         getItems = { this.getItems }
                         onLeftButtonPress = { this.handleLeftButtonPress }
-                        onRightButtonPress = { this.handleRightButtonPress }
-                        leftButtonTitle = { data.decisions[0] }
-                        rightButtonTitle = { data.decisions[1] } />
+                        onRightButtonPress = { this.handleRightButtonPress } />
                 </View>
             )
         })
     }
 
-    handleLeftButtonPress = () => {
+    handleLeftButtonPress = (outcome) => {
         this.setState({ 
-            story: this.state.story.concat([choice1_runtogetbags_post_choice2])
+            story: this.state.story.concat([outcome])
         })
     }
 
