@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { Component } from 'react';
 import {
     View,
@@ -7,9 +6,6 @@ import {
 } from 'react-native';
 import styles from '../config/styles'
 import PropTypes from 'prop-types';
-=======
-import styles from '../config/styles'
->>>>>>> 239ed512aa56be51856b97b26607e3436f2eeaf7
 
 const disabled = styles.button.disabled;
 
@@ -23,11 +19,8 @@ const DisabledButton = ( props ) => {
     )
 }
 
-<<<<<<< HEAD
 DisabledButton.PropTypes = {
     buttonTitle: PropTypes.string.isRequired
 }
 
-=======
->>>>>>> 239ed512aa56be51856b97b26607e3436f2eeaf7
 export default DisabledButton;

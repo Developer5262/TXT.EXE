@@ -26,7 +26,7 @@ export default class NarrativeContainer extends Component {
     getItems = ( elements ) => {
         return elements.story.map((data) => {
             return (
-                <View key = { data.id }>
+                <View>
                     <Text style = { styles.text }>{data}</Text>
                 </View>
             )

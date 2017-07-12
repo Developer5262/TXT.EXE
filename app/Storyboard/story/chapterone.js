@@ -7,10 +7,6 @@ const intro = {
         "Take the Left",
         "Take the W Train"
     ],
-    outcomes: [
-        choice1_runtogetbags_choice2_apologize,
-        choice1_runtogetbags_choice2_dontapologize
-    ],
     id: 10
 }
 
@@ -25,10 +21,6 @@ const choice1_runtogetbags = {
         "Take the Left",
         "Take the W Train"
     ],
-    outcomes: [
-        choice1_runtogetbags_choice2_apologize,
-        choice1_runtogetbags_choice2_dontapologize
-    ],
     variable: true,
     id: 14
 }
@@ -36,10 +28,6 @@ const choice1_runtogetbags = {
 const choice1_runtogetbags_choice2_apologize = {
     story: [
         "'Sorry!' I yelled from across the walkway. All that got me was another glare. Guess I deserved that one."
-    ],
-    outcomes: [
-        choice1_runtogetbags,
-        choice1_runtogetbags_choice2_dontapologize
     ],
     decisions: [
         "Take the Left",
@@ -53,10 +41,6 @@ const choice1_runtogetbags_choice2_dontapologize = {
     decisions: [
         "Take the Left",
         "Take the W Train"
-    ],
-    outcomes: [
-        choice1_runtogetbags,
-        choice1_runtogetbags_choice2_dontapologize
     ],
     id: 12
 }
@@ -73,10 +57,6 @@ const choice1_runtogetbags_post_choice2 = {
     decisions: [
         "Take the L Train",
         "Take the W Train"
-    ],
-    outcomes: [
-        choice1_runtogetbags_choice2_apologize,
-        choice1_runtogetbags_choice2_dontapologize
     ],
     id: 13
 }
