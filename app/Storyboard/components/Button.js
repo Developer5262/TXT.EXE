@@ -6,13 +6,17 @@ import {
 } from 'react-native';
 import styles from '../config/styles';
 import PropTypes from 'prop-types';
+import { 
+    choice1_runtogetbags_post_choice2,
+    intro
+} from '../story/chapterone'
 
 const button = styles.button;
 
 const Button = ( props ) => {
     return (
         <View style = { button.background }>
-            <TouchableHighlight onPress = { () => props.onButtonPress( props.outcome ) }>
+            <TouchableHighlight onPress = { props.onButtonPress }>
                 <Text style = { button.text }>{ props.buttonTitle }</Text>
             </TouchableHighlight>
         </View>

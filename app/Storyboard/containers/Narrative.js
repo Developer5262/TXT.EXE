@@ -11,7 +11,19 @@ import {
 import styles from '../config/styles';
 import Partial from '../containers/Partial';
 
-export default class NarrativeContainer extends Component {
+/**
+ * container for variables and list of story elements (Partial)
+ * responsilbe for generation 
+ * @export
+ * @class Narrative
+ * @extends {Component}
+ */
+export default class Narrative extends Component {
+    /**
+     * Creates a 
+     * @param {props} props 
+     * @memberof Narrative
+     */
     constructor(props) {
         super(props)
         this.state = {
@@ -20,39 +32,61 @@ export default class NarrativeContainer extends Component {
         }
     }
 
-    /*
-        Params - takes a plot element
-    */
+    /**
+     * Pulls elements of story arrays and generates them on screen.
+     * TODO: Animate these in, preferably one to two and a half seconds apart
+     * @memberof Narrative
+     */
     getItems = ( elements ) => {
-        return elements.story.map((data) => {
+        return elements.story.map( ( data ) => {
             return (
                 <View>
-                    <Text style = { styles.text }>{data}</Text>
+                    <Text style = { styles.text }>{ data }</Text>
                 </View>
             )
         })
     }
 
+    /**
+     * Pulls all narrative sections and maps them onto Partial objects
+     * TODO: Automate this process to have partial take a prop for outcome.
+     * @memberof Narrative
+     */
     mapItems = ( items ) => {
-        return items.map((data) => {
+        return items.map( ( data ) => {
             return (
                 <View>
                     <Partial
                         narrative = { data }
                         getItems = { this.getItems }
                         onLeftButtonPress = { this.handleLeftButtonPress }
-                        onRightButtonPress = { this.handleRightButtonPress } />
+                        onRightButtonPress = { this.handleRightButtonPress }
+                        leftOutcome = { data.leftOutcome }
+                        rightOutcome = { data.rightOutcome } />
                 </View>
             )
         })
     }
 
-    handleLeftButtonPress = (outcome) => {
+    /**
+     * On the left button click, add the outcome object to the array. 
+     * Then map the objects onto the screen using mapItems()
+     * TODO: Automate this process to have partial take a prop for outcome.
+     * @param {narrative} outcome 
+     * @memberof Narrative
+     */
+    handleLeftButtonPress = ( outcome ) => {
         this.setState({ 
-            story: this.state.story.concat([outcome])
+            story: this.state.story.concat( [outcome] )
         })
     }
 
+    /**
+     * On the left button click, add the outcome object to the array. 
+     * Then map the objects onto the screen using mapItems()
+     * TODO: Automate this process to have partial take a prop for outcome.
+     * @memberof Narrative
+     */
     handleRightButtonPress = () => {
         
     }
@@ -66,6 +100,6 @@ export default class NarrativeContainer extends Component {
     }
 }
 
-NarrativeContainer.PropTypes = {
+Narrative.PropTypes = {
     
 }
