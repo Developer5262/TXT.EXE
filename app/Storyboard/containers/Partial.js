@@ -47,13 +47,13 @@ export default class Partial extends Component {
         })
     }
 
-    render() {
+    render() { 
         var item = !this.state.disabled ? (
             <View style = { styles.container.button }>
                 <TouchableOpacity onPress = {() => this.disableButton}>
                     <Button
                         buttonTitle = { this.props.narrative.decisions[0] }
-                        onButtonPress = {() => this.props.onLeftButtonPress(choice1_runtogetbags_post_choice2) }/>
+                        onButtonPress = {() => this.props.onLeftButtonPress( this.props.leftOutcome ) }/>
                     <Button
                         buttonTitle = { this.props.narrative.decisions[1] }
                         onButtonPress = { this.props.onRightButtonPress } />

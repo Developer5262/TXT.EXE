@@ -38,10 +38,10 @@ export default class Narrative extends Component {
      * @memberof Narrative
      */
     getItems = ( elements ) => {
-        return elements.story.map((data) => {
+        return elements.story.map( ( data ) => {
             return (
                 <View>
-                    <Text style = { styles.text }>{data}</Text>
+                    <Text style = { styles.text }>{ data }</Text>
                 </View>
             )
         })
@@ -53,14 +53,16 @@ export default class Narrative extends Component {
      * @memberof Narrative
      */
     mapItems = ( items ) => {
-        return items.map((data) => {
+        return items.map( ( data ) => {
             return (
                 <View>
                     <Partial
                         narrative = { data }
                         getItems = { this.getItems }
                         onLeftButtonPress = { this.handleLeftButtonPress }
-                        onRightButtonPress = { this.handleRightButtonPress }/>
+                        onRightButtonPress = { this.handleRightButtonPress }
+                        leftOutcome = { data.leftOutcome }
+                        rightOutcome = { data.rightOutcome } />
                 </View>
             )
         })
@@ -73,9 +75,9 @@ export default class Narrative extends Component {
      * @param {narrative} outcome 
      * @memberof Narrative
      */
-    handleLeftButtonPress = (outcome) => {
+    handleLeftButtonPress = ( outcome ) => {
         this.setState({ 
-            story: this.state.story.concat([outcome])
+            story: this.state.story.concat( [outcome] )
         })
     }
 

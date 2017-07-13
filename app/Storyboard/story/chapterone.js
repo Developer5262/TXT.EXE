@@ -7,10 +7,24 @@ export const intro = {
         "Take the Left",
         "Take the W Train"
     ],
-    outcomes: [
-        choice1_runtogetbags_post_choice2,
-        choice1_runtogetbags_post_choice2
-    ],
+    leftOutcome: {
+        story: [
+            "I was almost jogging at this point. My heavy carry-on bag wasn’t helping me keep the pace.",
+            "I almost tripped again rushing down an incline. I cursed to myself, startling several children and their parents.",
+            "I gave a quiet nod of apology, and hurried on.",
+            "The baggage claim was close now. I ignored the bright lights of the gift shop. I ignored the divine smell of the bagel shop and all its equally decedent toppings. ",
+            "Being late would mean travelling all the way across the world for nothing",
+            "I couldn’t have travelled all the way across the world (and wasted all that money) just to turn back around again."
+        ],
+        leftOutcome: intro,
+        rightOutcome: intro,
+        decisions: [
+            "Take the L Train",
+            "Take the W Train"
+        ],
+        id: 13
+    },
+    rightOutcome: choice1_runtogetbags_post_choice2,
     id: 10
 }
 
@@ -58,10 +72,8 @@ export const choice1_runtogetbags_post_choice2 = {
         "Being late would mean travelling all the way across the world for nothing",
         "I couldn’t have travelled all the way across the world (and wasted all that money) just to turn back around again."
     ],
-    outcomes: [
-        intro,
-        intro
-    ],
+    leftOutcome: intro,
+    rightOutcome: intro,
     decisions: [
         "Take the L Train",
         "Take the W Train"
