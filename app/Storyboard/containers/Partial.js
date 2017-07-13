@@ -15,7 +15,20 @@ import {
     intro
 } from '../story/chapterone'
 
+/**
+ * Resonsible for generating a view of story, elements, and their respective
+ * buttons, along with generating views of outcomes
+ * @export
+ * @class Partial
+ * @extends {Component}
+ */
 export default class Partial extends Component {
+    /**
+     * Creates an instance of Partial, with state that determines
+     * if the contained buttons are active or not.
+     * @param {props} props 
+     * @memberof Partial
+     */
     constructor(props) {
         super(props)
         this.state = {
@@ -23,6 +36,11 @@ export default class Partial extends Component {
         }
     }
     
+    /**
+     * Disables an active button on click, so that the same story object
+     * is not generated more than once.
+     * @memberof Partial
+     */
     disableButton = () => {
         this.setState({
             disabled: true
@@ -55,6 +73,5 @@ Partial.PropTypes = {
     narrative: PropTypes.object.isRequired,
     onLeftButtonPress: PropTypes.func.isRequired,
     getItems: PropTypes.func.isRequired,
-    onRightButtonPress: PropTypes.func.isRequired,
-    disabled: PropTypes.bool.isRequired
+    onRightButtonPress: PropTypes.func.isRequired
 }
