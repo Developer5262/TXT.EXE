@@ -49,7 +49,6 @@ export default class Narrative extends Component {
 
     /**
      * Pulls all narrative sections and maps them onto Partial objects
-     * TODO: Automate this process to have partial take a prop for outcome.
      * @memberof Narrative
      */
     mapItems = ( items ) => {
@@ -71,7 +70,6 @@ export default class Narrative extends Component {
     /**
      * On the left button click, add the outcome object to the array. 
      * Then map the objects onto the screen using mapItems()
-     * TODO: Automate this process to have partial take a prop for outcome.
      * @param {narrative} outcome 
      * @memberof Narrative
      */
