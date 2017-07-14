@@ -5,12 +5,12 @@ import {
     View
 } from 'react-native';
 import React, {Component} from 'react'
-import Storyboard from './app/Storyboard/Storyboard'
+import App from './app/index'
 
 class NativeBaseDemo extends Component {
     render() {
         return (
-            <Storyboard />
+            <App />
         )
     }
 }

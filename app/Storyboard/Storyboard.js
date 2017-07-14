@@ -5,9 +5,15 @@ import {
     Image,
     ScrollView 
 } from 'react-native';
+
 import styles from './config/styles'
 import images from './images/images';
 import Narrative from './containers/Narrative';
+
+import {
+    TimingDriver,
+    FadeIn
+} from '@shoutem/animation';
 
 export default class Storyboard extends Component {
     render() {
