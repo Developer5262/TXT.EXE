@@ -14,14 +14,14 @@ export default class Routes extends Component {
             <Router>
                 <Scene key = "root">
                     <Scene
-                        key = 'Home'
+                        key = "home"
                         component = {Home}
-                        title = 'Home'
+                        hideNavBar
                         initial />
                     <Scene
-                        key = 'Storyboard'
+                        key = "storyboard"
                         component = {Storyboard}
-                        title = 'Storyboard' />
+                        hideNavBar />
                 </Scene>
             </Router>
         );
