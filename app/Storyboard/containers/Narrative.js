@@ -4,17 +4,20 @@ import {
     Text,
     View
 } from 'react-native';
+
 import { 
     choice1_runtogetbags_post_choice2,
     intro
-} from '../story/chapterone'
+} from '../story/chapterone';
+
 import styles from '../config/styles';
 import Partial from '../containers/Partial';
 
 /**
  * container for variables and list of story elements (Partial)
  * responsilbe for generation 
- * @export
+ * @exportgit add .
+ * 
  * @class Narrative
  * @extends {Component}
  */
@@ -38,6 +41,7 @@ export default class Narrative extends Component {
      * @memberof Narrative
      */
     getItems = ( elements ) => {
+        
         return elements.story.map( ( data ) => {
             return (
                 <View>
@@ -49,7 +53,6 @@ export default class Narrative extends Component {
 
     /**
      * Pulls all narrative sections and maps them onto Partial objects
-     * TODO: Automate this process to have partial take a prop for outcome.
      * @memberof Narrative
      */
     mapItems = ( items ) => {
@@ -71,7 +74,6 @@ export default class Narrative extends Component {
     /**
      * On the left button click, add the outcome object to the array. 
      * Then map the objects onto the screen using mapItems()
-     * TODO: Automate this process to have partial take a prop for outcome.
      * @param {narrative} outcome 
      * @memberof Narrative
      */

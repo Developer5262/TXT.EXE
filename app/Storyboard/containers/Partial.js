@@ -13,7 +13,12 @@ import PropTypes from 'prop-types';
 import { 
     choice1_runtogetbags_post_choice2,
     intro
-} from '../story/chapterone'
+} from '../story/chapterone';
+
+import {
+    FadeIn,
+    TimingDriver
+} from '@shoutem/animation';
 
 /**
  * Resonsible for generating a view of story, elements, and their respective
@@ -48,6 +53,11 @@ export default class Partial extends Component {
     }
 
     render() { 
+        const driver = new TimingDriver({
+            duration: 500
+        });
+        driver.toValue(1)
+
         var item = !this.state.disabled ? (
             <View style = { styles.container.button }>
                 <TouchableOpacity onPress = {() => this.disableButton}>
@@ -62,8 +72,10 @@ export default class Partial extends Component {
         ) : <View />
         return (
             <View style = { styles.container.text }>
-                { this.props.getItems( this.props.narrative ) }
-                <View>{ item }</View>
+                <FadeIn driver = {driver}>
+                    { this.props.getItems( this.props.narrative ) }
+                    <View>{ item }</View>
+                </FadeIn>
             </View>
         );
     }
