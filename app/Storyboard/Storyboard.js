@@ -15,6 +15,8 @@ import {
     FadeIn
 } from '@shoutem/animation';
 
+import Spinner from 'react-native-spinkit';
+
 export default class Storyboard extends Component {
     render() {
         return (   
@@ -26,7 +28,7 @@ export default class Storyboard extends Component {
                         <Narrative />
                     </ScrollView>
                 </View>
-            </Image>
+            </Image> 
         );
     }
 }
