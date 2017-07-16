@@ -13,6 +13,11 @@ import {
 import styles from '../config/styles';
 import Partial from '../containers/Partial';
 
+import {
+    FadeIn,
+    TimingDriver
+} from '@shoutem/animation';
+
 /**
  * container for variables and list of story elements (Partial)
  * responsilbe for generation 
@@ -41,8 +46,12 @@ export default class Narrative extends Component {
      * @memberof Narrative
      */
     getItems = ( elements ) => {
-        
+        const driver = new TimingDriver({
+            duration: 500,
+            delay: 500
+        })
         return elements.story.map( ( data ) => {
+            driver.toValue(1)
             return (
                 <View>
                     <Text style = { styles.text }>{ data }</Text>
@@ -79,7 +88,7 @@ export default class Narrative extends Component {
      */
     handleLeftButtonPress = ( outcome ) => {
         this.setState({ 
-            story: this.state.story.concat( [outcome] )
+            story: [outcome]
         })
     }
 

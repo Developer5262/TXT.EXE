@@ -16,8 +16,8 @@ import {
 } from '../story/chapterone';
 
 import {
-    FadeIn,
-    TimingDriver
+    TimingDriver,
+    FadeIn
 } from '@shoutem/animation';
 
 /**
@@ -54,8 +54,9 @@ export default class Partial extends Component {
 
     render() { 
         const driver = new TimingDriver({
-            duration: 500
-        });
+            duration: 250
+        })
+
         driver.toValue(1)
 
         var item = !this.state.disabled ? (
