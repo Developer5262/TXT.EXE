@@ -67,7 +67,7 @@ export default class Partial extends Component {
                         onButtonPress = {() => this.props.onLeftButtonPress( this.props.leftOutcome ) }/>
                     <Button
                         buttonTitle = { this.props.narrative.decisions[1] }
-                        onButtonPress = { this.props.onRightButtonPress } />
+                        onButtonPress = {() => this.props.onRightButtonPress( this.props.rightOutcome ) } />
                 </TouchableOpacity>
             </View>
         ) : <View />
