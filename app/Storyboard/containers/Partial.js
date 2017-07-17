@@ -54,7 +54,7 @@ export default class Partial extends Component {
 
     render() { 
         const driver = new TimingDriver({
-            duration: 250
+            duration: 500
         })
 
         driver.toValue(1)
