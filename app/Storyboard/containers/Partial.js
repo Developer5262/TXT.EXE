@@ -46,6 +46,8 @@ export default class Partial extends Component {
         })
     }
 
+
+
     render() { 
         const driver = new TimingDriver({
             duration: 250
@@ -53,23 +55,20 @@ export default class Partial extends Component {
 
         driver.toValue(1)
 
-        var item = !this.state.disabled ? (
-            <View style = { styles.container.button }>
-                <TouchableOpacity onPress = {() => this.disableButton}>
-                    <Button
-                        buttonTitle = { this.props.narrative.decisions[0] }
-                        onButtonPress = {() => this.props.onLeftButtonPress( this.props.leftOutcome ) }/>
-                    <Button
-                        buttonTitle = { this.props.narrative.decisions[1] }
-                        onButtonPress = { this.props.onRightButtonPress } />
-                </TouchableOpacity>
-            </View>
-        ) : <View />
         return (
             <View style = { styles.container.text }>
                 <FadeIn driver = {driver}>
                     { this.props.getItems( this.props.narrative ) }
-                    <View>{ item }</View>
+                    <View style = { styles.container.button }>
+                        <TouchableOpacity onPress = {() => this.disableButton}>
+                            <Button
+                                buttonTitle = { this.props.narrative.decisions[0] }
+                                onButtonPress = {() => this.props.onLeftButtonPress( this.props.leftOutcome ) }/>
+                            <Button
+                                buttonTitle = { this.props.narrative.decisions[1] }
+                                onButtonPress = {() => this.props.onRightButtonPress( this.props.rightOutcome ) }/>
+                        </TouchableOpacity>
+                    </View>
                 </FadeIn>
             </View>
         );

@@ -93,8 +93,10 @@ export default class Narrative extends Component {
      * TODO: Automate this process to have partial take a prop for outcome.
      * @memberof Narrative
      */
-    handleRightButtonPress = () => {
-        
+    handleRightButtonPress = ( outcome ) => {
+        this.setState({ 
+            story: outcome
+        })
     }
 
     render() {
