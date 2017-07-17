@@ -5,10 +5,7 @@ import {
     View
 } from 'react-native';
 
-import { 
-    choice1_runtogetbags_post_choice2,
-    intro
-} from '../story/chapterone';
+import chapterone from '../story/chapterone';
 
 import styles from '../config/styles';
 import Partial from '../containers/Partial';
@@ -35,7 +32,7 @@ export default class Narrative extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            story: [intro],
+            story: chapterone,
             factors: {}
         }
     }
@@ -64,20 +61,18 @@ export default class Narrative extends Component {
      * Pulls all narrative sections and maps them onto Partial objects
      * @memberof Narrative
      */
-    mapItems = ( items ) => {
-        return items.map( ( data ) => {
-            return (
-                <View>
-                    <Partial
-                        narrative = { data }
-                        getItems = { this.getItems }
-                        onLeftButtonPress = { this.handleLeftButtonPress }
-                        onRightButtonPress = { this.handleRightButtonPress }
-                        leftOutcome = { data.leftOutcome }
-                        rightOutcome = { data.rightOutcome } />
-                </View>
-            )
-        })
+    mapItems = ( data ) => {
+        return (
+            <View>
+                <Partial
+                    narrative = { data }
+                    getItems = { this.getItems }
+                    onLeftButtonPress = { this.handleLeftButtonPress }
+                    onRightButtonPress = { this.handleRightButtonPress }
+                    leftOutcome = { data.leftOutcome }
+                    rightOutcome = { data.rightOutcome } />
+            </View>
+        )
     }
 
     /**
@@ -88,7 +83,7 @@ export default class Narrative extends Component {
      */
     handleLeftButtonPress = ( outcome ) => {
         this.setState({ 
-            story: [outcome]
+            story: outcome
         })
     }
 

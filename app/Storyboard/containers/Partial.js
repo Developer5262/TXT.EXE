@@ -7,13 +7,7 @@ import {
 
 import styles from '../config/styles';
 import Button from '../components/Button';
-import DisabledButton from '../components/DisabledButton';
 import PropTypes from 'prop-types';
-
-import { 
-    choice1_runtogetbags_post_choice2,
-    intro
-} from '../story/chapterone';
 
 import {
     TimingDriver,
