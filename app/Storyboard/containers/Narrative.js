@@ -45,12 +45,11 @@ export default class Narrative extends Component {
      * @memberof Narrative
      */
     getItems = ( elements ) => {
-        return elements.story.map( ( data ) => {
+        return elements.story.map( ( data, key ) => {
             return (
-                <View>
+                <View key = { key.toString() }>
                     <Text style = { styles.text }>{ data }</Text>
                 </View>
-                
             )
         })
     }
@@ -60,9 +59,9 @@ export default class Narrative extends Component {
      * @memberof Narrative
      */
     mapItems = ( items ) => {
-        return items.map( ( data ) => {
+        return items.map( ( data, key ) => {
             return (
-                <View>
+                <View key = { key.toString() }>
                     <Partial
                         narrative = { data }
                         getItems = { this.getItems }
