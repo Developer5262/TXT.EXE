@@ -59,7 +59,7 @@ export default class Partial extends Component {
 
         driver.toValue(1)
 
-        var item = !this.state.disabled ? (
+        var item = !(this.props.leftOutcome == null || this.props.rightOutcome == null) ? (
             <View style = { styles.container.button }>
                 <TouchableOpacity onPress = {() => this.disableButton}>
                     <Button
@@ -70,7 +70,13 @@ export default class Partial extends Component {
                         onButtonPress = {() => this.props.onRightButtonPress( this.props.rightOutcome ) } />
                 </TouchableOpacity>
             </View>
-        ) : <View />
+        ) : (
+            <View>
+                <TouchableOpacity>
+                    <Text style = { styles.text }>END OF DEMO - CHAPTERS TWO AND THREE COME OUT NEXT MONTH</Text>
+                </TouchableOpacity>
+            </View>
+        )
         return (
             <View style = { styles.container.text }>
                 <FadeIn driver = {driver}>
