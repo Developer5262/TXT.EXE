@@ -46,16 +46,12 @@ export default class Narrative extends Component {
      * @memberof Narrative
      */
     getItems = ( elements ) => {
-        const driver = new TimingDriver({
-            duration: 500,
-            delay: 500
-        })
         return elements.story.map( ( data ) => {
-            driver.toValue(1)
             return (
                 <View>
                     <Text style = { styles.text }>{ data }</Text>
                 </View>
+                
             )
         })
     }
