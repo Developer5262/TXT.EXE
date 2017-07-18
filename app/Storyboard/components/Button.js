@@ -15,8 +15,8 @@ const button = styles.button;
 
 const Button = ( props ) => {
     return (
-        <View style = { button.background }>
-            <TouchableHighlight onPress = { props.onButtonPress }>
+        <View>
+            <TouchableHighlight style = { button.background } onPress = { props.onButtonPress }>
                 <Text style = { button.text }>{ props.buttonTitle }</Text>
             </TouchableHighlight>
         </View>

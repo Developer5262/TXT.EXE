@@ -129,6 +129,27 @@ export const intro = {
                 "The man’s smile instantly faded. ",
                 "'Sorry if I crossed a line', he said. 'Would you like to talk about it?'"
             ],
+            decisions: [
+                "Talk About It",
+                "Don't Talk About It"
+            ],
+            leftOutcome: {
+                story: [
+                    "I told him about my parents. How unique they were. From they way I talked about them, you might have thought that I was talking about celebrities.",
+                    "I didn’t tell him what happened to them."   
+                ]
+            },
+            rightOutcome: {
+                story: [
+                    "'Nah.' Talking about my parents was always hard. This would have been no different.",
+                    "He just smiled. He seemed disappointed. Weird.",
+                    "'That’s all right. It’s none of my business anyway'",
+                    "The baggage claim suddenly roared to life. Dozens of people waiting for their luggage gathered around the conveyor belt.",
+                    "'It was nice talking to you kid.' He said. 'What’s your name?' He offered his hand.",
+                    "'Bart Penn', I said. 'Yours?'",
+                    "He didn't answer back. He just smiled."
+                ]
+            }
         }
     },
     rightOutcome: {
@@ -151,8 +172,61 @@ export const intro = {
             "A strange title for a book, I know, but I was never able to convince her to change the title to something like “Black Snow”. Mom was always stubborn. ",
             "I reached the baggage claim without getting too lost. Surprising, considering the size of the airport.",
             "Bags had just starting coming in. There was no sizeable crowd either.",
-            "At least something was going my way."
-        ]
+            "At least something was going my way.",
+            "As I waited for my bags to arrive, more and more people started gathering",
+            "A man, about six feet in height, about half a foot taller than I was, stepped beside me."
+        ],
+        decisions: [
+            "Introduce Yourself",
+            "Ignore Him"
+        ],
+        leftOutcome: {
+            story: [
+                "'Got any tips?' I asked the man.",
+                "In an instant, he replied. 'Wear comfortable shoes', he responded. That caught me off guard. I had expected him to ask for context, but it was like he had read my mind.",
+                "He smiled. ",
+                "'Where are you from kid?' he asked.",
+                "'New York City', I replied. 'Just graduated from college, top of my class.' An achievement I was proud of, without a doubt. It probably showed.",
+                "He smiled again. 'You parents must be proud'. Whatever pride I had felt in that moment instantly faded.",
+                "People tell stories about how a traumatic moment caused their lives to flash before their eyes. It all happens in an instant, they say.",
+                "That happened whenever someone mentioned my parents. ",
+                "They had been kind people, my parents. My father was well muscled, like a football player. His blond hair was always messy. My mom always complained about it, and all he did was chuckle. He was stubborn like that. ",
+                "The most noticeable feature about him, however, was his eyes. They were colored ocean blue, glowing like those night lights that I (over)used as a kid.",
+                "My mother was highly intelligent. She was offered a government position straight out of college, but declined “because she didn’t want anything to do with politics”. Instead, she chose the humble life of an author. ",
+                "She wrote a lot of books. Most of these books didn’t sell well though. She always remained positive that one would make it big.",
+                "I missed my parents.",
+                "The man’s smile instantly faded. ",
+                "'Sorry if I crossed a line', he said. 'Would you like to talk about it?'"
+            ],
+            decisions: [
+                "Talk About It",
+                "Don't Talk About It"
+            ],
+            leftOutcome: {
+                story: [
+                    "I told him about my parents. How unique they were. From they way I talked about them, you might have thought that I was talking about celebrities.",
+                    "I didn’t tell him what happened to them.",
+                    "I noticed my luggage pass by. I went to collect it. 'My name is Bart Penn', I said. 'Yours?'",
+                    "The man, however, just smiled, and walked away. He didn't even collect his luggage."   
+                ]
+            },
+            rightOutcome: {
+                story: [
+                    "'Nah.' Talking about my parents was always hard. This would have been no different.",
+                    "He just smiled. He seemed disappointed. Weird.",
+                    "'That’s all right. It’s none of my business anyway'",
+                    "'It was nice talking to you kid.' He said. 'What’s your name?' He offered his hand.",
+                    "'Bart Penn', I said. 'Yours?'",
+                    "The man, however, just smiled, and walked away. He didn't even collect his luggage."   
+                ]
+            }
+        },
+        rightOutcome: {
+            story: [
+                "I didn't say anything to him",
+                "The man, however, just smiled, and walked away. He didn't even collect his luggage."
+            ]
+        }
     }
 }
 
