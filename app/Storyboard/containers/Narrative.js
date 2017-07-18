@@ -5,8 +5,7 @@ import {
     View
 } from 'react-native';
 
-import { 
-    choice1_runtogetbags_post_choice2,
+import {
     intro
 } from '../story/chapterone';
 
